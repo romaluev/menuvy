@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Shop",
+        "path": "shops",
+        "fields": {
+            "name": "string,string|required",
+            "url": "string,string|required",
+            "article": "string,string|required"
+        },
+        "created": true,
+        "delete": false
+    },
+    {
+        "name": "Product",
+        "path": "products",
+        "fields": {
+            "name": "string,string|required",
+            "article": "string,string|required",
+            "description": "string,string|nullable",
+            "price": "decimal,numeric|required",
+            "priceCurrency": "string,string|required",
+            "netCost": "decimal,numeric|required",
+            "netCostCurrency": "string,string|required"
+        },
+        "created": true,
+        "delete": false
+    }
+]
